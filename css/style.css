@@ -131,3 +131,25 @@ h1.logo-txt{
     border-radius: 15px;
     padding: 10px;
 }
+
+.testimonial{
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.test-text{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.test-author{
+    margin-left: auto;
+    font-size: 24px;
+    color:#1F2937
+}
