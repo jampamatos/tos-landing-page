@@ -167,7 +167,7 @@ h1.logo-txt{
 .action-container{
     background-color: #3882F6;
     border-radius: 15px;
-    margin: 80px 200px;
+    margin: 120px 200px;
     padding: 30px 100px;
     height: auto;
     width: 800px;
@@ -191,4 +191,23 @@ h1.logo-txt{
     text-decoration: none;
     border-radius: 15px;
     align-self: center;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #C6C7C5;
+    font-weight: bold;
 }
