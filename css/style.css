@@ -46,6 +46,10 @@ h1.logo-txt{
     padding: 0 15px;
 }
 
+.nav a:hover{
+    color: #969eae;
+}
+
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -96,6 +100,10 @@ h1.logo-txt{
     text-align: center;
     text-decoration: none;
     border-radius: 15px;
+}
+
+.hero button:hover{
+    background-color: #053073;
 }
 
 .info {
@@ -193,6 +201,10 @@ h1.logo-txt{
     align-self: center;
 }
 
+.container-button:hover{
+    background-color: #053073;
+}
+
 .footer{
     background-color: #1F2937;
     color: #F9FAF8;
@@ -210,4 +222,8 @@ footer a{
     text-decoration: none;
     color: #C6C7C5;
     font-weight: bold;
+}
+
+.footer a:hover{
+    color: #8a8c88;
 }
