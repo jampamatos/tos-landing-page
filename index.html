@@ -1,63 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>TOS Foundations Project: Landing Page</title>
+    <title>TOS Landing Page</title>
 </head>
-<body>
-    <header class="header">
 
-        <img class="logo" src="img/clipped-logo.png" alt="Lorem ipsun Logo">
-        <h1 class="logo-txt">LOREM IPSUM SYSTEMS</h1>
-        <nav class="nav">
+<body>
+    <header id="header">
+        <img id="header-img" src="img/clipped-logo.png" alt="Logo">
+        <h1 id="logo-txt">LOREM IPSUM SYSTEMS</h1>
+        <nav id="nav-bar">
             <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
+                <li><a class="nav-link" href="#hero">Home</a></li>
+                <li><a class="nav-link" href="#about">About us</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="nav-link" href="#quote">Testimonials</a></li>
             </ul>
         </nav>
     </header>
-    
-    <div class="hero">
-        <div class="hero-text">
+
+    <section id="hero">
+        <div id="hero-text">
             <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is
+                lower contrast.</p>
             <button>Sign up</button>
         </div>
-        <img class= "hero-img" src= "img/hero.jpg" alt= "A black and white photo of a woman looking left. Behind her, in shades of dark blue, binary numers fill the image.">
-    </div>
+        <div id="hero-pic">
+            <img class="hero-img" src="img/hero.jpg"
+                alt="A black and white photo of a woman looking left. Behind her, in shades of dark blue, binary numers fill the image.">
+        </div>
+    </section>
 
-    <div class= "info">
-        <h2>Some random information.</h2>
-        <div class="card-container">
-            <div class="card">
-                <img class="icon" src="img/bar-chart.png">
-                <p class="icon-subtext">This is some subtext under an illustration or image</p>
+    <section id="about">
+        <div id="info-title">
+            <h2>Some random information.</h2>
+            <div id="iframe-container">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="card">
-                <img class="icon" src="img/bar-chart.png">
-                <p class="icon-subtext">This is some subtext under an illustration or image</p>
-            </div>
-            <div class="card">
-                <img class="icon" src="img/bar-chart.png">
-                <p class="icon-subtext">This is some subtext under an illustration or image</p>
-            </div>
-            <div class="card">
-                <img class="icon" src="img/bar-chart.png">
-                <p class="icon-subtext">This is some subtext under an illustration or image</p>
-            </div>
-        </div>        
-    </div>
 
-    <div class="testimonial">
-        <p class="test-text">"This is an inspiring quote, or a testimonial from a costumer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice."</p>
+        </div>
+        <div id="card-container">
+            <div class="card">
+                <div class="card-icon">
+                    <img class="icon" src="img/bar-chart.png">
+                </div>
+                <div class="card-text">
+                    <p class="icon-subtext">This is some subtext under an illustration or image</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img class="icon" src="img/bar-chart.png">
+                </div>
+                <div class="card-text">
+                    <p class="icon-subtext">This is some subtext under an illustration or image</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img class="icon" src="img/bar-chart.png">
+                </div>
+                <div class="card-text">
+                    <p class="icon-subtext">This is some subtext under an illustration or image</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img class="icon" src="img/bar-chart.png">
+                </div>
+                <div class="card-text">
+                    <p class="icon-subtext">This is some subtext under an illustration or image</p>
+                </div>
+            </div>
+        </div>
+        <div id=form-div>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Find out more!</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email here.">
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Solutions that you can afford.</h2>
+        <p id="pricing-p">Pick a plan that feets your need. We scale up with you.</p>
+
+        <div id="pricing-container">
+            <div class="offer"></div>
+            <div class="best-offer">
+                <p>Best Offer!</p>
+            </div>
+            <div class="offer"></div>
+            <div class="offer"></div>
+            <div class="pricing-item-title">
+                <h3>Premium</h3>
+                <p>Lorem ipsun dolor sit amet.</p>
+            </div>
+            <div class="pricing-item-title">
+                <h3>Pro</h3>
+                <p>Lorem ipsun dolor sit amet.</p>
+            </div>
+            <div class="pricing-item-title">
+                <h3>Plus</h3>
+                <p>Lorem ipsun dolor sit amet.</p>
+            </div>
+            <div class="pricing-item-title">
+                <h3>Light</h3>
+                <p>Lorem ipsun dolor sit amet.</p>
+            </div>
+            <div class="pricing-item-price">
+                <h4>$1,499</h4>
+            </div>
+            <div class="pricing-item-price">
+                <h4>$1,499</h4>
+            </div>
+            <div class="pricing-item-price">
+                <h4>$1,499</h4>
+            </div>
+            <div class="pricing-item-price">
+                <h4>$1,499</h4>
+            </div>
+            <div class="pricing-item-button">
+                <button>Select</button>
+            </div>
+            <div class="pricing-item-button">
+                <button>Select</button>
+            </div>
+            <div class="pricing-item-button">
+                <button>Select</button>
+            </div>
+            <div class="pricing-item-button">
+                <button>Select</button>
+            </div>
+            <div class="pricing-item-info">
+                <p>All premium accounts include:</p>
+                <ul>
+                    <li><strong>Lorem</strong> blabla</li>
+                    <li><strong>Ipsum</strong> blabla</li>
+                    <li><strong>Dolor</strong> blabla</li>
+                    <li><strong>Sit</strong> blabla</li>
+                    <li><strong>Amet</strong> blabla</li>
+                </ul>
+            </div>
+            <div class="pricing-item-info">
+                <p>All premium accounts include:</p>
+                <ul>
+                    <li><strong>Lorem</strong> blabla</li>
+                    <li><strong>Ipsum</strong> blabla</li>
+                    <li><strong>Dolor</strong> blabla</li>
+                    <li><strong>Sit</strong> blabla</li>
+                    <li><strong>Amet</strong> blabla</li>
+                </ul>
+            </div>
+            <div class="pricing-item-info">
+                <p>All premium accounts include:</p>
+                <ul>
+                    <li><strong>Lorem</strong> blabla</li>
+                    <li><strong>Ipsum</strong> blabla</li>
+                    <li><strong>Dolor</strong> blabla</li>
+                    <li><strong>Sit</strong> blabla</li>
+                    <li><strong>Amet</strong> blabla</li>
+                </ul>
+            </div>
+            <div class="pricing-item-info">
+                <p>All premium accounts include:</p>
+                <ul>
+                    <li><strong>Lorem</strong> blabla</li>
+                    <li><strong>Ipsum</strong> blabla</li>
+                    <li><strong>Dolor</strong> blabla</li>
+                    <li><strong>Sit</strong> blabla</li>
+                    <li><strong>Amet</strong> blabla</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote">
+        <p class="test-text">"This is an inspiring quote, or a testimonial from a costumer. Maybe it's just filling up
+            space, or maybe people will actually read it. Who knows? All i know is that it looks nice."</p>
         <p class="test-author">- Thor, God of Thunder</p>
-    </div>
+    </section>
 
-    <div class="action">
+    <section id="action">
         <div class="action-container">
             <div class="container-text">
                 <h3>Call to action! It's time!</h3>
@@ -65,14 +195,24 @@
             </div>
             <button class="container-button">Sign up!</button>
         </div>
-    </div>
+    </section>
 
-    <footer class="footer">
-        <p>Copyright © Jampa Matos 2021. Logo vector by <a href="https://www.freepik.com/andi-asmara">andi asmara</a> from <a href="https://www.freepik.com/vectors/logo">Freepik</a>.
-            Hero image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1327493">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1327493">Pixabay</a>.
-            Icons made by <a href="https://www.freepik.com">Freepik</a> from <a href="https://www.flaticon.com/">Flaticon</a>.</p>
-            <p>Powered by coffee and <a href="https://www.theodinproject.com">Odin</a></p>
+    <footer id="footer">
+        <p>Copyright © Jampa Matos 2021. Logo vector by <a href="https://www.freepik.com/andi-asmara" target= "_blank">andi asmara</a>
+            from <a href="https://www.freepik.com/vectors/logo" target="_blank">Freepik</a>.
+            Hero image by <a
+                href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1327493" target="_blank">Gerd
+                Altmann</a> from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1327493" target="_blank">Pixabay</a>.
+            Icons made by <a href="https://www.freepik.com" target="_blank">Freepik</a> from <a
+                href="https://www.flaticon.com/" target="_blank">Flaticon</a>.</p>
+        <p>Powered by coffee, <a href="https://www.freecodecamp.org/" target="_blank">FCC</a> and <a
+                href="https://www.theodinproject.com" target="_blank">Odin.</a></p>
     </footer>
 
+
+
+
 </body>
+
 </html>
